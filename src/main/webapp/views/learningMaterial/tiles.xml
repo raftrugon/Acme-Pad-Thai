@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+       
+<tiles-definitions>
+
+  <definition name="learningMaterial/list" extends="master.page">
+    <put-attribute name="title" value="Learning Material" />
+    <put-attribute name="body" value="/views/learningMaterial/list.jsp" />
+  </definition>
+  
+  <definition name="learningMaterial/cook/edit" extends="master.page">
+    <put-attribute name="title" value="Edit learningMaterial" />
+    <put-attribute name="body" value="/views/learningMaterial/edit.jsp" />
+  </definition>
+  
+  <definition name="learningMaterial/cook/list" extends="master.page">
+    <put-attribute name="title" value="My Learning Materials" />
+    <put-attribute name="body" value="/views/learningMaterial/listMyLearningMaterials.jsp" />
+  </definition>
+  
+</tiles-definitions>

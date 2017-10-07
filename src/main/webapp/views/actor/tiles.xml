@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 
+ * tiles.xml
+ *
+ * Copyright (C) 2016 Universidad de Sevilla
+ * 
+ * The use of this project is hereby constrained to the conditions of the 
+ * TDG Licence, a copy of which you may download from 
+ * http://www.tdg-seville.info/License.html
+ -->
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+       
+<tiles-definitions>
+
+	<definition name="cook/register" extends="master.page">	
+		<put-attribute name="title" value="Register Cook" />
+		<put-attribute name="body" value="/views/actor/registerCook.jsp" />
+	</definition>
+
+	<definition name="sponsor/register" extends="master.page">	
+		<put-attribute name="title" value="Register Sponsor" />
+		<put-attribute name="body" value="/views/actor/registerSponsor.jsp" />
+	</definition>
+	
+	<definition name="user/register" extends="master.page">	
+		<put-attribute name="title" value="Register User" />
+		<put-attribute name="body" value="/views/actor/registerUser.jsp" />
+	</definition>
+	
+	<definition name="nutritionist/register" extends="master.page">	
+		<put-attribute name="title" value="Register Nutritionist" />
+		<put-attribute name="body" value="/views/actor/registerNutritionist.jsp" />
+	</definition>
+	
+	<definition name="user/edit" extends="master.page">	
+		<put-attribute name="title" value="Edit User" />
+		<put-attribute name="body" value="/views/actor/editUser.jsp" />
+	</definition>
+	
+	<definition name="nutritionist/edit" extends="master.page">	
+		<put-attribute name="title" value="Edit Nutritionist" />
+		<put-attribute name="body" value="/views/actor/editNutritionist.jsp" />
+	</definition>
+	
+	<definition name="sponsor/edit" extends="master.page">	
+		<put-attribute name="title" value="Edit Sponsor" />
+		<put-attribute name="body" value="/views/actor/editSponsor.jsp" />
+	</definition>
+	
+	<definition name="cook/edit" extends="master.page">	
+		<put-attribute name="title" value="Edit Cook" />
+		<put-attribute name="body" value="/views/actor/editCook.jsp" />
+	</definition>
+	
+	<definition name="admin/edit" extends="master.page">	
+		<put-attribute name="title" value="Edit Admin" />
+		<put-attribute name="body" value="/views/actor/editAdmin.jsp" />
+	</definition>
+	
+	<definition name="sponsor/admin/list" extends="master.page">	
+		<put-attribute name="title" value="Defaulting Sponsors" />
+		<put-attribute name="body" value="/views/actor/defaultingSponsors.jsp" />
+	</definition>
+	
+	<definition name="profile/personalData/list" extends="master.page">	
+		<put-attribute name="title" value="Personal Data" />
+		<put-attribute name="body" value="/views/actor/socialIdentityList.jsp" />
+	</definition>
+	
+	<definition name="profile/socialIdentity/register" extends="master.page">	
+		<put-attribute name="title" value="Register Social Identity" />
+		<put-attribute name="body" value="/views/actor/registerSocialIdentity.jsp" />
+	</definition>
+	
+	<definition name="profile/curricula/edit" extends="master.page">	
+		<put-attribute name="title" value="Edit Curricula" />
+		<put-attribute name="body" value="/views/actor/editCurricula.jsp" />
+	</definition>
+	
+	
+</tiles-definitions>

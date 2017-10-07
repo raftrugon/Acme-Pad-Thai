@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+  <definition name="recipe/list" extends="master.page">
+    <put-attribute name="title" value="Recipes" />
+    <put-attribute name="body" value="/views/recipe/list.jsp" />
+  </definition>
+  
+  <definition name="recipe/user/edit" extends="master.page">
+    <put-attribute name="title" value="Edit Recipe" />
+    <put-attribute name="body" value="/views/recipe/edit.jsp" />
+  </definition>
+  
+  <definition name="recipe/user/list" extends="master.page">
+    <put-attribute name="title" value="My Recipes" />
+    <put-attribute name="body" value="/views/recipe/listMyRecipes.jsp" />
+  </definition>
+  
+  <definition name="recipe/recommendedRecipes/list" extends="master.page">
+    <put-attribute name="title" value="Recommended Recipes" />
+    <put-attribute name="body" value="/views/recipe/listRecommendedRecipes.jsp" />
+  </definition>
+  
+  <definition name="recipe/userList" extends="master.page">
+    <put-attribute name="title" value="User's Recipes" />
+    <put-attribute name="body" value="/views/recipe/listUser.jsp" />
+  </definition>
+  
+  <definition name="recipe/contestList" extends="master.page">
+    <put-attribute name="title" value="Contest's Recipes" />
+    <put-attribute name="body" value="/views/recipe/listContest.jsp" />
+  </definition>
+
+</tiles-definitions>
